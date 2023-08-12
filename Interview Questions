@@ -1,0 +1,152 @@
+'''
+
+Q1 What are compound data types ?
+The data type that is constructed using simple, primitive, 
+and basic data types are compound data types. 
+
+Q2 What is the difference between a list and a tuple?
+
+Lists are enclosed with in square []
+Lists are mutable, that is their elements and size can be changed.
+Lists are slower than tuples.
+Example: [‘A’, 1, ‘i’]
+
+Tuples are enclosed in parentheses ()
+Tuples are immutable i.e cannot be edited.
+Tuples are faster than lists.
+Tuples must be used when the order of the elements of a sequence matters.
+Example: (‘Twenty’, 20, ‘XX’)
+
+Q3 What are the built-in type does python provides?
+There are mutable and Immutable types of Pythons built in types
+Mutable built-in types -- List,sets,dictionaries
+Immutable built-in types -- strings,tuples,numbers
+
+Q4 What is dictionary in Python?
+
+Python dictionary is an unordered collection of items.
+While other compound data types have only value as an element,
+a dictionary has a key: value pair.
+Dictionaries are optimized to retrieve values when the key is known.
+
+Q5 What is the difference between %, /, and  //
+
+% is the modulus operator that returns a remainder after the division.
+
+/ is the operator that returns the quotient after the division.
+
+// is the floor division that rounds off the quotient to the bottom.
+
+Ex-11 % 2 —> output = 1 ,11 / 2 —> output = 5.5,11 // 2 —> output = 5
+
+Q6 What is the difference between indexing and slicing?
+
+Indexing is extracting or lookup one or particular values in a data structure, 
+whereas slicing retrieves a sequence of elements.
+
+Q7 What are types of Operator are used in Python? 
+Arithmetic Operators
+Comparison Operators
+Python Assignment Operators
+Logical Operators or Bitwise Operators
+Membership Operators
+Identity Operators
+ 
+Q8 When do you choose a list over a tuple?
+
+When we need to modify the elements
+
+Q9 What is pass in Python?
+
+Pass means, no-operation Python statement, 
+or in other words it is a place holder in compound statement, 
+where there should be a blank left and nothing has to be written there.
+
+Q10 What Does The Continue Do In Python? 
+
+The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted.
+ 
+The continue statement is applicable for both the “while” and “for” loops.
+
+When Should You Use The “Break” In Python? 
+
+Python provides a break statement to exit from a loop. 
+Whenever the break hits in the code, 
+the control of the program immediately exits from the body of the loop.
+ 
+The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+Q11 What is the difference between del(), clear(), remove(),  and pop()?
+
+del(): deletes the with respect to the position of the value. It does not return which value is deleted. It also changes the index towards the right by decreasing one value. It can also be used to delete the entire data structure.
+clear(): clears the list.
+remove(): it deletes with respect to the value hence can be used if you know which particular value to delete.
+pop(): by default removes the last element and also returns back which value is deleted. It is used extensively when we would want to create referencing. In sense, we can store this deleted return value in a variable and use in future.
+
+Q12 When to use for loop and while loop?
+
+For loop is used when you know beforehand which elements need to be iterated.
+If you want to iterate over every element of the data structure, then use For loop.
+On the other hand, the While loop is used to check for some conditions on the variables. 
+Here, we know the exact condition to run but do not know how many times to run the loop.
+
+Q13 What is the difference between print and return?
+
+The print does not store any value. It simply prints the value, 
+whereas return gives the value as an output that can be stored in a variable 
+or a data structure.
+
+Q14 What Are The Principal Differences Between The Lambda And Def?
+
+Def can hold multiple expressions while lambda is a uni-expression function.
+Def generates a function and designates a name to call it later. 
+ Lambda forms a function object and returns it.
+Def can have a return statement. Lambda can’t have return statements.
+Lambda supports to get used inside a list and dictionary.
+
+Q15 What is Regex? List some of the important Regex functions in Python.
+
+Regular Expression or RegEx is a sequence of characters that are used to create search patterns. In Python, the following RegEx functions are mostly used:
+
+match(): it checks for a match only at the beginning of the string.
+search(): it locates a substring matching the RegEx pattern anywhere in the string 
+sub(): searches for the pattern and replaces with a new value
+split(): it is used to split the text by the given RegEx pattern.
+findall(): it is used to find all the sub-strings matching the RegEx pattern
+
+Q16 How do map, reduce and filter functions work?
+Map function applies the given function to all the iterable and 
+returns a new modified list. 
+It applies the same function to each element of a sequence. 
+
+Reduce function applies the same operation to items of a sequence. It uses the result of operations as the first param of the next operation. It returns an item and not a list.
+
+Filter function filters an item out of a sequence. It is used to filter the given iterable (list, sets, tuple) with the help of another function passed as an argument to test all the elements to be true or false. Its output is a filtered list. 
+
+Q17 What is lambda in Python?
+ 
+anonymous function means that a function is without a name. As we already know that def keyword is used to define the normal functions and the lambda keyword is used to create anonymous functions.
+
+     lambda arguments: expression
+
+Q18 Is It Mandatory For A Python Function To Return A Value? 
+
+It is not at all necessary for a function to return any value. However,
+if needed, we can use None as a return value.
+
+Q19 What is a Counter in Python?
+
+The function Counter() from the module ‘collections’. 
+It counts the number of occurrences of the elements of a container.
+
+Q20 What is *args and **kwargs?
+
+*args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is expecting a list or a tuple as argument to the function.
+ 
+**kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+'''
+
+
+
+
+
